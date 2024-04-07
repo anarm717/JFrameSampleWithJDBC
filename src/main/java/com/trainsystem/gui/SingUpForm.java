@@ -100,7 +100,7 @@ public class SingUpForm extends JFrame {
 		btnSignUp.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String name=tfName.getText();
-				String surname=tfUsername.getText();
+				String surname=tfSurname.getText();
 				String username=tfUsername.getText();
 				String password=tfPassword.getText().toString();
 				
